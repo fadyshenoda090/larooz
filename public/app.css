@@ -159,6 +159,17 @@ body {
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
 */
+
+.secTitle {
+  color:white;
+  position: absolute;
+  top:60px;
+}
+.secImg {
+  position: relative;
+}
+
+
 hr {
   height: 0; /* 1 */
   color: inherit; /* 2 */
@@ -505,6 +516,7 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .z-20{z-index:20}
 .z-50{z-index:50}
 .z-\[2\]{z-index:2}
+.z-0{z-index:0}
 .col-span-2{grid-column:span 2 / span 2}
 .m-0{margin:0px}
 .m-8{margin:2rem}
@@ -720,6 +732,7 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .bg-red-100{--tw-bg-opacity:1;background-color:rgba(254, 226, 226, 1);background-color:rgba(254, 226, 226, var(--tw-bg-opacity))}
 .bg-white{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, 1);background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}
 .bg-cover{background-size:cover}
+.bg-auto{background-size:auto}
 .bg-center{background-position:center}
 .bg-no-repeat{background-repeat:no-repeat}
 .fill-current{fill:currentColor}
