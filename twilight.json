@@ -805,6 +805,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "a76c1621-5234-4cae-864d-7c24b27ce72a",
+            "title": "section2",
+            "icon": "sicon-store",
+            "path": "home.section2",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
