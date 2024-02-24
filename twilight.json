@@ -849,6 +849,13 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "key": "a4b674d9-be2d-4652-9a75-a2a205cc08d3",
+            "title": "section3-bg",
+            "icon": "sicon-store",
+            "path": "home.section3_bg",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
