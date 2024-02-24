@@ -825,6 +825,21 @@
                     "required": false
                 },
                 {
+                    "id": "headimg_url",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "headImg_URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
                     "id": "right_image",
                     "type": "string",
                     "format": "image",
@@ -837,6 +852,21 @@
                     "required": false
                 },
                 {
+                    "id": "rightimg_url",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "rightImg_URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
                     "id": "left_image",
                     "type": "string",
                     "format": "image",
@@ -847,6 +877,21 @@
                     "icon": "sicon-image",
                     "value": null,
                     "required": false
+                },
+                {
+                    "id": "leftimg_url",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "leftImg_URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
                 }
             ]
         },
