@@ -881,7 +881,7 @@
                     "multilanguage": false,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "80"
                 },
                 {
                     "id": "subtitle",
@@ -896,7 +896,7 @@
                     "multilanguage": false,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "300"
                 },
                 {
                     "id": "url",
@@ -911,7 +911,7 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "200"
                 }
             ]
         }
