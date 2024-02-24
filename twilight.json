@@ -837,7 +837,7 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "100"
                 },
                 {
                     "id": "right_image",
@@ -864,7 +864,7 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "100"
                 },
                 {
                     "id": "left_image",
@@ -891,7 +891,7 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "100"
                 }
             ]
         },
