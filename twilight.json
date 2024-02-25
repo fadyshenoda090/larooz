@@ -1031,6 +1031,13 @@
             "icon": "sicon-store",
             "path": "pages.pag2",
             "fields": []
+        },
+        {
+            "key": "b850f029-4ff0-4b97-a528-d46f97f58a94",
+            "title": "section3",
+            "icon": "sicon-store",
+            "path": "home.section3",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
