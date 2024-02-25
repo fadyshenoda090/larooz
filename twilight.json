@@ -965,7 +965,23 @@
             "title": "section3-slider",
             "icon": "sicon-store",
             "path": "home.section3_slider",
-            "fields": []
+            "fields": [
+                {
+                    "id": "slider",
+                    "type": "number",
+                    "format": "slider",
+                    "inputType": "range",
+                    "label": "Slider",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-pin",
+                    "value": 0,
+                    "required": false,
+                    "step": 2.5,
+                    "minimum": -50,
+                    "maximum": "50"
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
