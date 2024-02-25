@@ -1019,31 +1019,16 @@
                     "maxLength": "1000"
                 },
                 {
-                    "id": "collection",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "Collection",
+                    "id": "image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
                     "description": null,
                     "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "collection.image",
-                            "type": "string",
-                            "format": "image",
-                            "label": "Image",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "e.g. https://hostname.com/image.png",
-                            "icon": "sicon-image",
-                            "value": null,
-                            "required": false
-                        }
-                    ],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": 5
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
                 }
             ]
         }
