@@ -1002,7 +1002,7 @@
                     "multilanguage": false,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "100"
                 },
                 {
                     "id": "suptitle",
@@ -1017,7 +1017,7 @@
                     "multilanguage": false,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "100"
                 },
                 {
                     "id": "url",
@@ -1032,7 +1032,7 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": "1000"
                 },
                 {
                     "id": "collection",
