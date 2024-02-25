@@ -586,6 +586,7 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .h-7{height:1.75rem}
 .h-8{height:2rem}
 .h-80{height:20rem}
+.h-96{height:24rem}
 .h-\[2\.2rem\]{height:2.2rem}
 .h-\[300px\]{height:300px}
 .h-\[34px\]{height:34px}
@@ -596,7 +597,6 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .h-full{height:100%}
 .h-lg-banner{height:428px}
 .h-px{height:1px}
-.h-96{height:24rem}
 .max-h-0{max-height:0px}
 .max-h-8{max-height:2rem}
 .max-h-\[300px\]{max-height:300px}
@@ -734,7 +734,6 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .bg-primary{background-color:#414042;background-color:var(--color-primary)}
 .bg-red-100{--tw-bg-opacity:1;background-color:rgba(254, 226, 226, 1);background-color:rgba(254, 226, 226, var(--tw-bg-opacity))}
 .bg-white{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, 1);background-color:rgba(255, 255, 255, var(--tw-bg-opacity))}
-.bg-inherit{background-color:inherit}
 .bg-cover{background-size:cover}
 .bg-center{background-position:center}
 .bg-no-repeat{background-repeat:no-repeat}
@@ -6521,7 +6520,6 @@ button.swiper-pagination-bullet {
 .sm\:block{display:block}
 .sm\:inline-flex{display:inline-flex}
 .sm\:grid{display:grid}
-.sm\:hidden{display:none}
 .sm\:h-auto{height:auto}
 .sm\:h-full{height:100%}
 .sm\:\!w-\[220px\]{width:220px !important}
@@ -6713,7 +6711,6 @@ button.swiper-pagination-bullet {
 .rtl\:mr-3:where([dir="rtl"], [dir="rtl"] *){margin-right:0.75rem}
 .rtl\:mr-4:where([dir="rtl"], [dir="rtl"] *){margin-right:1rem}
 .rtl\:mr-auto:where([dir="rtl"], [dir="rtl"] *){margin-right:auto}
-.rtl\:ml-\[unset\]:where([dir="rtl"], [dir="rtl"] *){margin-left:0;margin-left:initial}
 .rtl\:-scale-x-100:where([dir="rtl"], [dir="rtl"] *){--tw-scale-x:-1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(-1) scaleY(var(--tw-scale-y));transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:1}
 .rtl\:rounded-l-none:where([dir="rtl"], [dir="rtl"] *){border-top-left-radius:0px;border-bottom-left-radius:0px}
