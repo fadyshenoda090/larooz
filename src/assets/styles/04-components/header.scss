@@ -168,11 +168,11 @@ salla-user-menu{
 
 // cart summary
 .s-cart-summary-total{
-  @apply text-black font-[600];
+  @apply text-black font-[600] hidden;
 }
 
 .s-cart-summary-count{
-  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5;
+  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 w-[0.9rem] h-[0.9rem] bg-[#DFAE73] text-black;
 }
 
 #nav-cart{

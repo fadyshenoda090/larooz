@@ -10,7 +10,7 @@
 #}
 {% if is_header %}
     <div class="hidden lg:flex items-center">
-        {% for contact in contacts|filter(contact => contact.type in ['email', 'phone']) %}
+        {% for contact in contacts|filter(contact => contact.type in ['email']) %}
           <a href="{{ contact.url }}"
               class="topnav-link-item">
               {% if contact.type == 'email' %}
