@@ -4,12 +4,16 @@
 "١٠٠ ر.س" | #}
 <header class="flex flex-col">
   <section
-    class="flex justify-between items-center border:border-b border-b-2 border-green-300 h-[2.2rem]"
+    class="flex items-center justify-between border:border-b border-b-2 border-white h-[2.2rem]"
   >
-  <salla-button href="pages/blog/index" fill="solid" color="light">ll</salla-button>
-    <div class="mr-5">
-      <div class="header-buttons">
-        {% if store.settings.is_multilingual or store.currencies_enabled %}
+  <ul class="lg:flex justify-evenly hidden text-white">
+    <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">طرق الدفع</a></li>
+    <span class="mx-2">|</span>
+    <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">سياسة الإستبدال والاسترجاع</a></li>
+    <span class="mx-2">|</span>
+    <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">سياسة الضمان</a></li>
+    <li class="mr-2">
+      {% if store.settings.is_multilingual or store.currencies_enabled %}
         <button
           type="button"
           onclick="salla.event.dispatch(`localization::open`)"
@@ -23,29 +27,36 @@
         </button> 
         <salla-localization-modal></salla-localization-modal>
         {% endif %}
-      </div>
-    </div>
-    <div class="ml-[15%] flex">
+    </li>
+  </ul>
+    <div class="ml-[10%] flex">
       {% component 'footer.contacts' with {is_header:true} %}
     </div>
-  </section><a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" onmouseenter="hi" aria-label="Open-menu">
-    <i class="sicon-menu text-primary text-2xl">ll</i>
+  </section>
+  <a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4"
+  href="#mobile-menu" aria-label="Open-menu">
+    <i class="sicon-menu text-primary text-2xl"></i>
   </a>
+  <a  href="https://salla.sa/dev-adn671ta9breebis/ggggggggg/page-424193403">
+    <p class="secBtn " style="border: 2px solid white; width:25%; padding-bottom: 10px; text-align: center;   border-radius: 30px;"> عرض الكل</p>
+    </a>
   <section class="grid grid-cols-12 mt-3 h-[7rem] px-6">
-    <div class="col-span-4 border border-red-500 flex items-center">menu</div>
+    <div class="col-span-5 flex items-center flex-nowrap">
+      {% component 'header.menu' %}
+    </div>
     <div
-      class="col-span-4 flex justify-center items-center w-full border border: border-black"
+      class="col-span-3 flex justify-center items-center w-full"
     >
       <a href="{{ store.url }}">
         <img
-          class="w-[3rem] h-[3rem] rounded-full"
+          class="w-[5rem] h-[5rem] rounded-full"
           src="{{ store.logo }}"
           alt="{{ store.name }}"
         />
       </a>
     </div>
     <div
-      class="col-span-4 flex justify-end items-center text-center border-amber-500 border"
+      class="col-span-4 flex justify-end items-center text-center"
     >
       <div>
         <button
