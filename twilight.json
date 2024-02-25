@@ -1089,6 +1089,13 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "key": "bb2215e3-60b1-452a-807c-6a33f21fbc60",
+            "title": "pag2",
+            "icon": "sicon-store",
+            "path": "pages.pag2",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
