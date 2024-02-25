@@ -959,6 +959,143 @@
                     "maxLength": "200"
                 }
             ]
+        },
+        {
+            "key": "b9d0a269-59b1-4517-9ed2-fd761a2353e9",
+            "title": "section3-slider",
+            "icon": "sicon-store",
+            "path": "home.section3_slider",
+            "fields": [
+                {
+                    "id": "slider-item",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "slider-items",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "slider-item.itemImg",
+                            "type": "string",
+                            "format": "image",
+                            "label": "itemImg",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "slider-item.itemtitle",
+                            "type": "string",
+                            "format": "text",
+                            "label": "itemTitle",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "slider-item.itemprice",
+                            "type": "string",
+                            "format": "text",
+                            "label": "itemPrice",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": "100"
+                }
+            ]
+        },
+        {
+            "key": "91832e73-9a4b-4e98-ba68-71c2421102d8",
+            "title": "Section4",
+            "icon": "sicon-store",
+            "path": "home.Section4",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Title",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "100"
+                },
+                {
+                    "id": "suptitle",
+                    "type": "string",
+                    "format": "text",
+                    "label": "SupTitle",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "100"
+                },
+                {
+                    "id": "url",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "1000"
+                },
+                {
+                    "id": "image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
+        },
+        {
+            "key": "83ebccbf-1dfb-4ab9-8d72-7492ac77f1a7",
+            "title": "pag2",
+            "icon": "sicon-store",
+            "path": "page.pag2",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
