@@ -1091,10 +1091,10 @@
             ]
         },
         {
-            "key": "83ebccbf-1dfb-4ab9-8d72-7492ac77f1a7",
+            "key": "bb2215e3-60b1-452a-807c-6a33f21fbc60",
             "title": "pag2",
             "icon": "sicon-store",
-            "path": "page.pag2",
+            "path": "pages.pag2",
             "fields": []
         }
     ],
