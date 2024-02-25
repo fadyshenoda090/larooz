@@ -982,6 +982,13 @@
                     "maximum": "50"
                 }
             ]
+        },
+        {
+            "key": "91832e73-9a4b-4e98-ba68-71c2421102d8",
+            "title": "Section4",
+            "icon": "sicon-store",
+            "path": "home.Section4",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
