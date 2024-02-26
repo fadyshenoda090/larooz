@@ -2,7 +2,7 @@
 |------------------|---------|---------------------------------| | cart | object
 | | | cart.items_count | int | | | cart.total | string | Formatted total ex:
 "١٠٠ ر.س" | #}
-<salla-slider show-controls="false" loop="true" auto-play="true" class="relative">
+{# <salla-slider show-controls="false" class="relative">
   <div slot="items">
     {% for slide in component.slides %}
         <div class="swiper-slide w-full min-h-[300px] lg:min-h-[528px] bg-dark relative">
@@ -17,29 +17,29 @@
         </div>
     {% endfor %}
 </div>
-</salla-slider>
+</salla-slider> #}
 {# <div class="z-40 h-[12rem] w-screen bg-gray-100 opacity-20 blur-lg absolute"></div> #}
 <header class="flex flex-col absolute z-50">
   <section
-    class="flex justify-between items-center border-b border-white h-[2.2rem]"
+    class="flex justify-between items-center border-b border-white h-[2.6rem] w-[100vw]"
   >
   {# <a href="https://salla.sa/dev-adn671ta9breebis/policies/page-1929369537" fill="solid" color="light">ll</a> #}
     <div class="mr-5 flex">
       <ul class="flex text-[1rem] font-[500]">
-        <li><a class="decoration-none visited:text-black hover:border-black hover:border-b transition-all duration-300 ease-in" href="#">سياسة الضمان </a></li>
-        <span class="mx-1">|</span>
-        <li><a class="decoration-none visited:text-black hover:border-black hover:border-b transition-all duration-300 ease-in" href="#">سياسة الإستبدال والإسترجاع</a></li>
-        <span class="mx-1">|</span>
-        <li><a class="decoration-none visited:text-black hover:border-black hover:border-b transition-all duration-300 ease-in" href="#">طرق الدفع</a></li>
+        <li><a class="decoration-none text-white " href="#">سياسة الضمان </a></li>
+        <span class="mx-3 text-white text-lg">|</span>
+        <li><a class="decoration-none text-white " href="#">سياسة الإستبدال والإسترجاع</a></li>
+        <span class="mx-3 text-white text-lg">|</span>
+        <li><a class="decoration-none text-white " href="#">طرق الدفع</a></li>
       </ul>
-      <div class="header-buttons">
+      <div class="header-buttons mr-5">
         {% if store.settings.is_multilingual or store.currencies_enabled %}
         <button
           type="button"
           onclick="salla.event.dispatch(`localization::open`)"
           class="rounded-xl px-3 basis-0 flex items-center font-[600]"
         >
-          <span class="flex items-center">
+          <span class="flex items-center text-white">
             <i class="icon sicon-earth ml-1 mt-1.5"></i>
             <span class="font-normal">{{ user.language.name }}</span>
           </span>
@@ -49,15 +49,15 @@
         {% endif %}
       </div>
     </div>
-    <div class="ml-[15%] flex">
+    <div class="ml-[5%] flex text-white">
       {% component 'footer.contacts' with {is_header:true} %}
     </div>
   </section>
   <a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" aria-label="Open-menu">
-    <i class="sicon-menu text-primary text-2xl text-black"></i>
+    <i class="sicon-menu text-primary text-2xl white"></i>
   </a>
-  <section class="grid grid-cols-12 mt-3 h-[7rem] ">
-    <div class="col-span-4 flex items-center flex-nowrap w-100">
+  <section class="grid grid-cols-12 mt-3 h-[5rem] ">
+    <div class="col-span-4 flex items-center flex-nowrap w-100 pr-[10%]">
       {% component 'header.menu' %}
     </div>
     <div
@@ -72,14 +72,14 @@
       </a>
     </div>
     <div
-      class="col-span-4 flex justify-end items-center text-center pl-10"
+      class="col-span-4 flex justify-end items-center text-center pl-[13%]"
     >
       <div>
         <button
           onclick="salla.event.dispatch('search::open')"
           class=" search-btn"
         >
-          <span class="sicon-search"></span>
+          <span class="sicon-search text-white text-2xl"></span>
         </button>
         <div class="header-search flex-1">
           <salla-search-modal inline oval height="36"></salla-search-modal>
@@ -93,11 +93,11 @@
         style="cursor: pointer !important"
         onclick="salla.event.dispatch('login::open')"
       >
-        <i class="icon sicon-user"></i>
+        <i class="icon sicon-user text-white text-2xl"></i>
       </a>
       {% endif %}
-      <salla-cart-summary class="mr-2 text-black">
-        <i slot="icon" class="icon sicon-cart text-xl leading-none" style="color: #231F1E !important;"></i>
+      <salla-cart-summary class="mr-2 white">
+        <i slot="icon" class="icon sicon-cart text-2xl leading-none" style="color: white !important;"></i>
       </salla-cart-summary>
     </div>
   </section>
