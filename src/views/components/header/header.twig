@@ -2,12 +2,36 @@
 |------------------|---------|---------------------------------| | cart | object
 | | | cart.items_count | int | | | cart.total | string | Formatted total ex:
 "١٠٠ ر.س" | #}
-<header class="flex flex-col">
+<salla-slider show-controls="false" loop="true" auto-play="true" class="relative">
+  <div slot="items">
+    {% for slide in component.slides %}
+        <div class="swiper-slide w-full min-h-[300px] lg:min-h-[528px] bg-dark relative">
+  <div style="background-image: url({{ slide.image }});" class="overlay-bg bg-cover bg-center absolute inset-0"></div>
+            
+            <div class="flex-center container pb-16 sm:pb-0 home-slider__content relative h-full">
+                <div class=" w-4/6 text-center md:w-7/12 lg:w-5/12">
+                    <h2 data-swiper-parallax="-500" class="lg:text-title-size font-bold leading-tight mb-4">{{ slide.title }}</h2>
+                    <p data-swiper-parallax="-300" class="line-clamp-2 description">{{ slide.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+</salla-slider>
+{# <div class="z-40 h-[12rem] w-screen bg-gray-100 opacity-20 blur-lg absolute"></div> #}
+<header class="flex flex-col absolute z-50">
   <section
-    class="flex justify-between items-center border:border-b border-b-2 border-green-300 h-[2.2rem]"
+    class="flex justify-between items-center border-b border-white h-[2.2rem]"
   >
-  <a href="https://salla.sa/dev-adn671ta9breebis/policies/page-1929369537" fill="solid" color="light">ll</a>
-    <div class="mr-5">
+  {# <a href="https://salla.sa/dev-adn671ta9breebis/policies/page-1929369537" fill="solid" color="light">ll</a> #}
+    <div class="mr-5 flex">
+      <ul class="flex text-[1rem] font-[500]">
+        <li><a class="decoration-none visited:text-black hover:border-black hover:border-b transition-all duration-300 ease-in" href="#">سياسة الضمان </a></li>
+        <span class="mx-1">|</span>
+        <li><a class="decoration-none visited:text-black hover:border-black hover:border-b transition-all duration-300 ease-in" href="#">سياسة الإستبدال والإسترجاع</a></li>
+        <span class="mx-1">|</span>
+        <li><a class="decoration-none visited:text-black hover:border-black hover:border-b transition-all duration-300 ease-in" href="#">طرق الدفع</a></li>
+      </ul>
       <div class="header-buttons">
         {% if store.settings.is_multilingual or store.currencies_enabled %}
         <button
@@ -17,9 +41,9 @@
         >
           <span class="flex items-center">
             <i class="icon sicon-earth ml-1 mt-1.5"></i>
-            <span>{{ user.language.name }}</span>
+            <span class="font-normal">{{ user.language.name }}</span>
           </span>
-          <i class="icon sicon-arrow-down text-[13px] mt-1.5 mx-1"></i>
+          {# <i class="icon sicon-arrow-down text-[13px] mt-1.5 mx-1"></i> #}
         </button> 
         <salla-localization-modal></salla-localization-modal>
         {% endif %}
@@ -28,24 +52,27 @@
     <div class="ml-[15%] flex">
       {% component 'footer.contacts' with {is_header:true} %}
     </div>
-  </section><a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" aria-label="Open-menu">
-    <i class="sicon-menu text-primary text-2xl">ll</i>
+  </section>
+  <a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" aria-label="Open-menu">
+    <i class="sicon-menu text-primary text-2xl text-black"></i>
   </a>
-  <section class="grid grid-cols-12 mt-3 h-[7rem] px-6">
-    <div class="col-span-4 border border-red-500 flex items-center">menu</div>
+  <section class="grid grid-cols-12 mt-3 h-[7rem] ">
+    <div class="col-span-4 flex items-center flex-nowrap w-100">
+      {% component 'header.menu' %}
+    </div>
     <div
-      class="col-span-4 flex justify-center items-center w-full border border: border-black"
+      class="col-span-4 flex justify-center items-center w-10/12 mr-8"
     >
       <a href="{{ store.url }}">
         <img
-          class="w-[3rem] h-[3rem] rounded-full"
+          class="w-[5rem] h-[5rem] rounded-full"
           src="{{ store.logo }}"
           alt="{{ store.name }}"
         />
       </a>
     </div>
     <div
-      class="col-span-4 flex justify-end items-center text-center border-amber-500 border"
+      class="col-span-4 flex justify-end items-center text-center pl-10"
     >
       <div>
         <button
@@ -69,8 +96,8 @@
         <i class="icon sicon-user"></i>
       </a>
       {% endif %}
-      <salla-cart-summary class="mr-2">
-        <i slot="icon" class="icon sicon-cart text-xl leading-none"></i>
+      <salla-cart-summary class="mr-2 text-black">
+        <i slot="icon" class="icon sicon-cart text-xl leading-none" style="color: #231F1E !important;"></i>
       </salla-cart-summary>
     </div>
   </section>

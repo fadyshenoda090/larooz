@@ -20,7 +20,7 @@
   }
 
   .s-search-input{
-    @apply bg-gray-200/50 hover:bg-gray-200/70 border-none;
+    @apply bg-gray-200/50 hover:bg-green-500 border-none;
   }
 
   @media (max-width: 640px) {
@@ -161,6 +161,10 @@
     }
   }
 }
+// cart icon
+.cratIcon{
+  color: black !important;
+} 
 
 salla-user-menu{
   @apply shrink-0;
@@ -172,7 +176,7 @@ salla-user-menu{
 }
 
 .s-cart-summary-count{
-  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 w-[0.9rem] h-[0.9rem] bg-[#DFAE73] text-black;
+  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 w-[0.9rem] h-[0.9rem] bg-[#B275F7] text-black;
 }
 
 #nav-cart{
