@@ -1110,6 +1110,29 @@
             "icon": "sicon-store",
             "path": "home.Section6",
             "fields": []
+        },
+        {
+            "key": "d33c4be5-1d6f-432e-a86b-be0a330adfe9",
+            "title": "video",
+            "icon": "sicon-store",
+            "path": "home.video",
+            "fields": [
+                {
+                    "id": "url",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
