@@ -21,18 +21,6 @@
 {# <div class="z-40 h-[12rem] w-screen bg-gray-100 opacity-20 blur-lg absolute"></div> #}
 <header class="flex flex-col absolute z-50">
   <section
-<<<<<<< HEAD
-    class="flex items-center justify-between border:border-b border-b-2 border-white h-[2.2rem]"
-  >
-  <ul class="lg:flex justify-evenly hidden text-white">
-    <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">طرق الدفع</a></li>
-    <span class="mx-2">|</span>
-    <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">سياسة الإستبدال والاسترجاع</a></li>
-    <span class="mx-2">|</span>
-    <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">سياسة الضمان</a></li>
-    <li class="mr-2">
-      {% if store.settings.is_multilingual or store.currencies_enabled %}
-=======
     class="flex justify-between items-center border-b border-white h-[2.6rem] w-[100vw]"
   >
   {# <a href="https://salla.sa/dev-adn671ta9breebis/policies/page-1929369537" fill="solid" color="light">ll</a> #}
@@ -46,7 +34,6 @@
       </ul>
       <div class="header-buttons mr-5">
         {% if store.settings.is_multilingual or store.currencies_enabled %}
->>>>>>> fady
         <button
           type="button"
           onclick="salla.event.dispatch(`localization::open`)"
@@ -60,27 +47,6 @@
         </button> 
         <salla-localization-modal></salla-localization-modal>
         {% endif %}
-<<<<<<< HEAD
-    </li>
-  </ul>
-    <div class="ml-[10%] flex">
-      {% component 'footer.contacts' with {is_header:true} %}
-    </div>
-  </section>
-  <a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4"
-  href="#mobile-menu" aria-label="Open-menu">
-    <i class="sicon-menu text-primary text-2xl"></i>
-  </a>
-  <a  href="https://salla.sa/dev-adn671ta9breebis/ggggggggg/page-424193403">
-    <p class="secBtn " style="border: 2px solid white; width:25%; padding-bottom: 10px; text-align: center;   border-radius: 30px;"> عرض الكل</p>
-    </a>
-  <section class="grid grid-cols-12 mt-3 h-[7rem] px-6">
-    <div class="col-span-5 flex items-center flex-nowrap">
-      {% component 'header.menu' %}
-    </div>
-    <div
-      class="col-span-3 flex justify-center items-center w-full"
-=======
       </div>
     </div>
     <div class="ml-[5%] flex text-white">
@@ -96,7 +62,6 @@
     </div>
     <div
       class="col-span-4 flex justify-center items-center w-10/12 mr-8"
->>>>>>> fady
     >
       <a href="{{ store.url }}">
         <img
@@ -107,11 +72,7 @@
       </a>
     </div>
     <div
-<<<<<<< HEAD
-      class="col-span-4 flex justify-end items-center text-center"
-=======
       class="col-span-4 flex justify-end items-center text-center pl-[13%]"
->>>>>>> fady
     >
       <div>
         <button
