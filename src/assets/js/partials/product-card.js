@@ -276,19 +276,7 @@ class ProductCard extends HTMLElement {
                 <span>${this.product.add_to_cart_label ? this.product.add_to_cart_label : this.getAddButtonLabel() }</span>
               </salla-add-product-button>
 
-              ${this.horizontal || this.fullImage ?
-                `<salla-button 
-                  shape="icon" 
-                  fill="outline" 
-                  color="light" 
-                  id="card-wishlist-btn-${this.product.id}-horizontal"
-                  aria-label="Add or remove to wishlist"
-                  class="s-product-card-wishlist-btn animated"
-                  onclick="salla.wishlist.toggle(${this.product.id})"
-                  data-id="${this.product.id}">
-                  <i class="sicon-heart"></i> 
-                </salla-button>`
-                : ``}
+             
             </div>`
             : ``}
         </div>
