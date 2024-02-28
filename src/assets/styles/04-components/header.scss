@@ -54,7 +54,7 @@
 
 // contacs menu items - pages menu items
 .topnav-link-item{
-  @apply inline-block transition duration-300 px-4 rtl:last:pl-0 ltr:last:pr-0 py-px text-sm leading-none ltr:border-r rtl:border-l border-gray-200 ltr:last:border-0 rtl:last:border-0 hover:opacity-80;
+  @apply inline-block transition duration-300 px-4 rtl:last:pl-0 ltr:last:pr-0 py-px text-xl leading-none ltr:border-r rtl:border-l border-gray-200 ltr:last:border-0 rtl:last:border-0;
 
   &.right-side{
     @apply rtl:first:pr-0 ltr:first:pl-0
@@ -150,7 +150,7 @@
   }
 }
 
-// Mainnav cart icon
+// Main nav cart icon
 .header-btn{
   @apply border-none outline-none transition-opacity hover:opacity-80;
 
@@ -172,7 +172,7 @@ salla-user-menu{
 }
 
 .s-cart-summary-count{
-  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 w-[0.9rem] h-[0.9rem] bg-[#DFAE73] text-black;
+  @apply -top-0.5 ltr:-left-1.5 rtl:-right-1.5 w-[0.9rem] h-[0.9rem];
 }
 
 #nav-cart{

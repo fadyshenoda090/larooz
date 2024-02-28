@@ -2,8 +2,26 @@
 |------------------|---------|---------------------------------| | cart | object
 | | | cart.items_count | int | | | cart.total | string | Formatted total ex:
 "١٠٠ ر.س" | #}
-<header class="flex flex-col">
+{# <salla-slider show-controls="false" class="relative">
+  <div slot="items">
+    {% for slide in component.slides %}
+        <div class="swiper-slide w-full min-h-[300px] lg:min-h-[528px] bg-dark relative">
+  <div style="background-image: url({{ slide.image }});" class="overlay-bg bg-cover bg-center absolute inset-0"></div>
+            
+            <div class="flex-center container pb-16 sm:pb-0 home-slider__content relative h-full">
+                <div class=" w-4/6 text-center md:w-7/12 lg:w-5/12">
+                    <h2 data-swiper-parallax="-500" class="lg:text-title-size font-bold leading-tight mb-4">{{ slide.title }}</h2>
+                    <p data-swiper-parallax="-300" class="line-clamp-2 description">{{ slide.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+</salla-slider> #}
+{# <div class="z-40 h-[12rem] w-screen bg-gray-100 opacity-20 blur-lg absolute"></div> #}
+<header class="flex flex-col absolute z-50">
   <section
+<<<<<<< HEAD
     class="flex items-center justify-between border:border-b border-b-2 border-white h-[2.2rem]"
   >
   <ul class="lg:flex justify-evenly hidden text-white">
@@ -14,19 +32,35 @@
     <li class="text-[0.9rem] font-[400] hover:text-gray-300 hover:shadow-md hover:font-semibold hover:opacity-90"><a href="#">سياسة الضمان</a></li>
     <li class="mr-2">
       {% if store.settings.is_multilingual or store.currencies_enabled %}
+=======
+    class="flex justify-between items-center border-b border-white h-[2.6rem] w-[100vw]"
+  >
+  {# <a href="https://salla.sa/dev-adn671ta9breebis/policies/page-1929369537" fill="solid" color="light">ll</a> #}
+    <div class="mr-5 flex">
+      <ul class="flex text-[1rem] font-[500]">
+        <li><a class="decoration-none text-white " href="#">سياسة الضمان </a></li>
+        <span class="mx-3 text-white text-lg">|</span>
+        <li><a class="decoration-none text-white " href="#">سياسة الإستبدال والإسترجاع</a></li>
+        <span class="mx-3 text-white text-lg">|</span>
+        <li><a class="decoration-none text-white " href="#">طرق الدفع</a></li>
+      </ul>
+      <div class="header-buttons mr-5">
+        {% if store.settings.is_multilingual or store.currencies_enabled %}
+>>>>>>> fady
         <button
           type="button"
           onclick="salla.event.dispatch(`localization::open`)"
           class="rounded-xl px-3 basis-0 flex items-center font-[600]"
         >
-          <span class="flex items-center">
+          <span class="flex items-center text-white">
             <i class="icon sicon-earth ml-1 mt-1.5"></i>
-            <span>{{ user.language.name }}</span>
+            <span class="font-normal">{{ user.language.name }}</span>
           </span>
-          <i class="icon sicon-arrow-down text-[13px] mt-1.5 mx-1"></i>
+          {# <i class="icon sicon-arrow-down text-[13px] mt-1.5 mx-1"></i> #}
         </button> 
         <salla-localization-modal></salla-localization-modal>
         {% endif %}
+<<<<<<< HEAD
     </li>
   </ul>
     <div class="ml-[10%] flex">
@@ -46,6 +80,23 @@
     </div>
     <div
       class="col-span-3 flex justify-center items-center w-full"
+=======
+      </div>
+    </div>
+    <div class="ml-[5%] flex text-white">
+      {% component 'footer.contacts' with {is_header:true} %}
+    </div>
+  </section>
+  <a class="lg:hidden mburger mburger--collapse leading-none rtl:ml-4 ltr:mr-4" href="#mobile-menu" aria-label="Open-menu">
+    <i class="sicon-menu text-primary text-2xl white"></i>
+  </a>
+  <section class="grid grid-cols-12 mt-3 h-[5rem] ">
+    <div class="col-span-4 flex items-center flex-nowrap w-100 pr-[10%]">
+      {% component 'header.menu' %}
+    </div>
+    <div
+      class="col-span-4 flex justify-center items-center w-10/12 mr-8"
+>>>>>>> fady
     >
       <a href="{{ store.url }}">
         <img
@@ -56,14 +107,18 @@
       </a>
     </div>
     <div
+<<<<<<< HEAD
       class="col-span-4 flex justify-end items-center text-center"
+=======
+      class="col-span-4 flex justify-end items-center text-center pl-[13%]"
+>>>>>>> fady
     >
       <div>
         <button
           onclick="salla.event.dispatch('search::open')"
           class=" search-btn"
         >
-          <span class="sicon-search"></span>
+          <span class="sicon-search text-white text-2xl"></span>
         </button>
         <div class="header-search flex-1">
           <salla-search-modal inline oval height="36"></salla-search-modal>
@@ -77,11 +132,11 @@
         style="cursor: pointer !important"
         onclick="salla.event.dispatch('login::open')"
       >
-        <i class="icon sicon-user"></i>
+        <i class="icon sicon-user text-white text-2xl"></i>
       </a>
       {% endif %}
-      <salla-cart-summary class="mr-2">
-        <i slot="icon" class="icon sicon-cart text-xl leading-none"></i>
+      <salla-cart-summary class="mr-2 white">
+        <i slot="icon" class="icon sicon-cart text-2xl leading-none" style="color: white !important;"></i>
       </salla-cart-summary>
     </div>
   </section>
