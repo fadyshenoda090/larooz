@@ -1103,6 +1103,13 @@
             "icon": "sicon-store",
             "path": "home.Section5",
             "fields": []
+        },
+        {
+            "key": "3b4f9fa7-11f0-4e9c-8b1c-91bdf5c78b1b",
+            "title": "Section6",
+            "icon": "sicon-store",
+            "path": "home.Section6",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
