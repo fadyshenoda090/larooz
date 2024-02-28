@@ -143,15 +143,15 @@
                           <span class="block px-5 text-sm absolute rtl:left-0 ltr:right-0">{{'(' ~ product_option.price|money ~ ')'}}</span>
                         {% endif %}
                         {% include 'pages.partials.product.options' with { product: product_option } %}
-                      </form>                   
+                      </form>
                     {% endfor %}
                   </div>
                 {% endif %}
-                    
+
                 {% if cart.offer %}
                   {% include 'components.product.offer' with { offer: cart.offer } %}
                 {% endif %}
-                
+
                 {% hook 'cart:items.end' %}
             </div>
 

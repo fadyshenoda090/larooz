@@ -961,71 +961,6 @@
             ]
         },
         {
-            "key": "b9d0a269-59b1-4517-9ed2-fd761a2353e9",
-            "title": "section3-slider",
-            "icon": "sicon-store",
-            "path": "home.section3_slider",
-            "fields": [
-                {
-                    "id": "slider-item",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "slider-items",
-                    "description": null,
-                    "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "slider-item.itemImg",
-                            "type": "string",
-                            "format": "image",
-                            "label": "itemImg",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "e.g. https://hostname.com/image.png",
-                            "icon": "sicon-image",
-                            "value": null,
-                            "required": false
-                        },
-                        {
-                            "id": "slider-item.itemtitle",
-                            "type": "string",
-                            "format": "text",
-                            "label": "itemTitle",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "Placeholder text ..",
-                            "icon": "sicon-format-text-alt",
-                            "value": null,
-                            "multilanguage": false,
-                            "required": false,
-                            "minLength": 6,
-                            "maxLength": 30
-                        },
-                        {
-                            "id": "slider-item.itemprice",
-                            "type": "string",
-                            "format": "text",
-                            "label": "itemPrice",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "Placeholder text ..",
-                            "icon": "sicon-format-text-alt",
-                            "value": null,
-                            "multilanguage": false,
-                            "required": false,
-                            "minLength": 6,
-                            "maxLength": 30
-                        }
-                    ],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": "100"
-                }
-            ]
-        },
-        {
             "key": "91832e73-9a4b-4e98-ba68-71c2421102d8",
             "title": "Section4",
             "icon": "sicon-store",
@@ -1095,6 +1030,78 @@
             "title": "pag2",
             "icon": "sicon-store",
             "path": "pages.pag2",
+            "fields": []
+        },
+        {
+            "key": "b850f029-4ff0-4b97-a528-d46f97f58a94",
+            "title": "section3",
+            "icon": "sicon-store",
+            "path": "home.section3",
+            "fields": [
+                {
+                    "id": "item",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "item",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "item.image",
+                            "type": "string",
+                            "format": "image",
+                            "label": "image",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "item.title",
+                            "type": "string",
+                            "format": "text",
+                            "label": "title",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        },
+                        {
+                            "id": "item.price",
+                            "type": "string",
+                            "format": "text",
+                            "label": "price",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
+        },
+        {
+            "key": "454f1323-ca51-44b4-a8ea-8f9c3765bbf2",
+            "title": "Section5",
+            "icon": "sicon-store",
+            "path": "home.Section5",
             "fields": []
         }
     ],
