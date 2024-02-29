@@ -1317,6 +1317,13 @@
                     "value": []
                 }
             ]
+        },
+        {
+            "key": "f667fb3e-396d-4d0f-ba64-340e28c13506",
+            "title": "spacer",
+            "icon": "sicon-store",
+            "path": "home.spacer",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
