@@ -2,11 +2,7 @@
 |------------------|---------|---------------------------------| | cart | object
 | | | cart.items_count | int | | | cart.total | string | Formatted total ex:
 "١٠٠ ر.س" | #}
-{# <div
-  class="z-40 h-[14rem] w-screen bg-[#8d8d7e] opacity-70 absolute hidden rounded-lg"
-  id="backBlur"
-></div> #}
-<header class="flex flex-col z-50 absolute" id="main-header">
+<header class="flex flex-col z-50 h-[12rem]" id="main-header">
   <section
     id="headerTop"
     class="flex justify-between items-center border-b border-white h-[2.6rem] w-[100vw]"
@@ -37,7 +33,7 @@
         {% endif %}
       </div>
     </div>
-    <div class="ml-[7%] flex text-white">
+    <div class="ml-[7%] flex text-white"  style="color: black !important;">
       {% component 'footer.contacts' with {is_header:true} %}
     </div>
   </section>
@@ -95,41 +91,4 @@
   </section>
 </header>
 
-<script>
-  const header = document.getElementById("main-header");
-  const backBlur = document.getElementById("backBlur");
-  const headerTop = document.getElementById("headerTop");
-  const scrollThreshold = 300;
-  window.addEventListener("scroll", function () {
-    const scrollY = window.scrollY || window.pageYOffset;
-    if (scrollY > scrollThreshold) {
-      header.classList.add(
-        "sticky",
-        "top-0",
-        "translate-y-[-100%]",
-        "transition-all",
-        "duration-300"
-      );
-      header.classList.remove("absolute");
-      backBlur.classList.remove("hidden");
-      backBlur.classList.add(
-        "sticky",
-        "top-0",
-        "translate-y-[-100%]",
-        "transition-all",
-        "duration-300"
-      );
-    } else {
-      header.classList.add("absolute");
-      header.classList.remove("sticky", "translate-y-[-100%]");
-      backBlur.classList.add("hidden", "translate-y-[-100%]");
-    }
-    // Trigger reflow to ensure transitions are applied smoothly
-    void header.offsetWidth;
-    void backBlur.offsetWidth;
-    if (scrollY > scrollThreshold) {
-      header.classList.remove("translate-y-[-100%]");
-      backBlur.classList.remove("translate-y-[-100%]");
-    }
-  });
-</script>
+

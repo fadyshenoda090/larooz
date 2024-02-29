@@ -11,15 +11,14 @@
     li{
     text-transform: capitalize;
     letter-spacing: 0.059rem;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     font-weight: bold;
 }
 .li:hover{
     transform: scale(1.4);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     border: none;
-    box-shadow: 0 0 5px #fff;
+    cursor: pointer !important;
     color: #999;
 }
 </style>
@@ -27,7 +26,7 @@
     {% if items|length %}
         <ul class="hidden lg:flex items-center rtl:pl-4 ltr:pr-4 whitespace-nowrap">
             {% for key, item in items|slice(0,3) %}
-			  <li class="topnav-link-item right-side">
+			  <li class="topnav-link-item right-side" style="cursor: pointer !important;">
 				<a href="{{ item.url }}">{{ item.title }}</a>
 			  </li>
             {% endfor %}
