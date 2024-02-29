@@ -7,11 +7,11 @@
 | links[].icon | string | Css class                                                          |
 | links[].url  | string |                                                                    |
 #}
-<ul class="flex mb-6">
+<ul class="flex">
   {% for link in links %}
-    <li class="rtl:ml-2.5 ltr:mr-2.5">
+    <li class="rtl:ml-2.5 ltr:mr-2.5 w-[1rem] h-[1rem] rounded-full bg-transparent border-white">
       <a href="{{ link.url }}" rel="noopener" target="_blank" title="{{ link.name }}" aria-label="{{ link.name }}" class="social-link">
-          <i class="sicon-{{ link.type }}"></i>
+          <i class="sicon-{{ link.type }} border-white bg-transparent w-[1rem] h-[1rem] rounded-full flex justify-center items-center"></i>
       </a>
     </li>
   {% endfor %}
