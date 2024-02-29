@@ -1247,6 +1247,13 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "key": "28e0db38-8b0b-4c18-9201-8bc871d019d7",
+            "title": "cattest",
+            "icon": "sicon-store",
+            "path": "home.cattest",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
