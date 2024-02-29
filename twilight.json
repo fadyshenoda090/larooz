@@ -1227,6 +1227,13 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "key": "8fcd5874-dab9-4f74-b0af-5ac69371e1bd",
+            "title": "Section8",
+            "icon": "sicon-store",
+            "path": "home.Section8",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
