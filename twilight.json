@@ -1174,7 +1174,59 @@
             "title": "sales",
             "icon": "sicon-store",
             "path": "home.sales",
-            "fields": []
+            "fields": [
+                {
+                    "id": "salesslider",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "salesSlider",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "salesslider.sliderimg",
+                            "type": "string",
+                            "format": "image",
+                            "label": "sliderImg",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                },
+                {
+                    "id": "saleimgright",
+                    "type": "string",
+                    "format": "image",
+                    "label": "saleImgRight",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                },
+                {
+                    "id": "saleimgleft",
+                    "type": "string",
+                    "format": "image",
+                    "label": "saleImgLeft",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
