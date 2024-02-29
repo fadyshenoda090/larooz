@@ -1253,7 +1253,38 @@
             "title": "cattest",
             "icon": "sicon-store",
             "path": "home.cattest",
-            "fields": []
+            "fields": [
+                {
+                    "id": "cat",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "cat",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "cat.catlist",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "catlist",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Manual",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
