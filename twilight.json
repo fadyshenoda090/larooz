@@ -1148,6 +1148,13 @@
                     "maxLength": "200"
                 }
             ]
+        },
+        {
+            "key": "43c64c12-802e-40ef-9c22-b0988e53382f",
+            "title": "Section7",
+            "icon": "sicon-store",
+            "path": "home.Section7",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
