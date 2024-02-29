@@ -1299,6 +1299,22 @@
                     "value": [],
                     "minLength": 1,
                     "maxLength": 5
+                },
+                {
+                    "id": "list",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "list",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "Categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "value": []
                 }
             ]
         }
