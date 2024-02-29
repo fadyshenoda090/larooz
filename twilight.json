@@ -1324,6 +1324,13 @@
             "icon": "sicon-store",
             "path": "home.spacer",
             "fields": []
+        },
+        {
+            "key": "e2e492aa-77b6-418a-ad08-108e9307ad19",
+            "title": "catSlider",
+            "icon": "sicon-store",
+            "path": "home.catSlider",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
