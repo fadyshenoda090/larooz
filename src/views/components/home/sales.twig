@@ -1,0 +1,26 @@
+<section class="s-block s-block--categories">
+<div class="">
+
+<div>
+{% for slide in salesslider %}
+<a href="#">
+<img class="bg-cover" src="{{slide.sliderimg}}" />
+</a>
+{% endfore %}
+
+
+</div>
+<br/>
+<div class="grid grid-cols-2  gap-4">
+<a href="#">
+<img class="rounded m-1" src="{{component.saleimgright}}" />
+</a>
+
+<a href="#">
+<img class="rounded m-1 " src="{{component.saleimgleft}}" />
+</a>
+</div>
+
+</div>
+
+</section>
