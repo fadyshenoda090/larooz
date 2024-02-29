@@ -1168,6 +1168,13 @@
                     "required": false
                 }
             ]
+        },
+        {
+            "key": "4b01d1ac-17c1-4316-906d-97321e88afea",
+            "title": "sales",
+            "icon": "sicon-store",
+            "path": "home.sales",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
