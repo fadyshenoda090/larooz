@@ -15,7 +15,13 @@
       auto-play
       show-controls="false"
       loop="true"
-     
+      slider-config="{
+        &quot;effect&quot;: &quot;fade&quot;,
+        &quot;slidesPerView&quot;:1,
+        &quot;speed&quot;: 2000,
+        &quot;autoplay&quot;: {&quot;delay&quot;:1000},
+        &quot;allowTouchMove&quot;: true
+      }"
       type="fullwidth">
         <div slot="items">
             {% for slide in component.slides %}
