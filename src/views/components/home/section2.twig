@@ -1,22 +1,24 @@
-<section class="s-block s-block--categories">
-<div class="">
+<section class="s-block s-block--categories"  style="height:900px">
+<div class="slider-bg" style=" background-image:url('{{component.bg_image}}');  background-repeat:no-repeat;   background-size:cover; height:50%">
 
-<div>
-<a href="{{component.headimg_url}}">
-<img class="bg-cover" src="{{component.head_image}}" />
+
+
+<div class="" style="color:white; padding:3%;">
+<h1  class="mb-3">{{component.title}}</h1>
+<p class="mb-8">{{component.subtitle}}</p>
+<a  href="https://salla.design/dev-adn671ta9breebis/latest-products">
+<p class="secBtn " style="border: 2px solid white; width:10%; padding-bottom: 10px; text-align: center;   border-radius: 30px;"> عرض الكل</p>
 </a>
 
-</div>
-<div class="grid grid-cols-2  gap-4">
-<a href="{{component.rightimg_url}}">
-<img class="rounded " src="{{component.right_image}}" />
-</a>
-
-<a href="{{component.leftimg_url}}">
-<img class="rounded " src="{{component.left_image}}" />
-</a>
 </div>
 
 </div>
 
-</section>
+<br/>
+<div class="container px-16 relative overflow-hidden" style=" margin-top:1%; top:-300px ">
+
+ <salla-products-slider source="latest" show-controls="false"  style=" color:white; height:50%"
+ class="s-products-slider-wrapper hydrated" limit="20" autoplay  display-all-url=""
+ block-title="Roya Palo" block-subtitle="" slider-id="slider-with-bg-5">
+
+</salla-products-slider>
