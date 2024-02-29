@@ -1131,8 +1131,199 @@
                     "required": false,
                     "minLength": 6,
                     "maxLength": 30
+                },
+                {
+                    "id": "string",
+                    "type": "string",
+                    "format": "text",
+                    "label": "String",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": "200"
                 }
             ]
+        },
+        {
+            "key": "43c64c12-802e-40ef-9c22-b0988e53382f",
+            "title": "Section7",
+            "icon": "sicon-store",
+            "path": "home.Section7",
+            "fields": [
+                {
+                    "id": "image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
+        },
+        {
+            "key": "4b01d1ac-17c1-4316-906d-97321e88afea",
+            "title": "sales",
+            "icon": "sicon-store",
+            "path": "home.sales",
+            "fields": [
+                {
+                    "id": "salesslider",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "salesSlider",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "salesslider.sliderimg",
+                            "type": "string",
+                            "format": "image",
+                            "label": "sliderImg",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                },
+                {
+                    "id": "saleimgright",
+                    "type": "string",
+                    "format": "image",
+                    "label": "saleImgRight",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                },
+                {
+                    "id": "saleimgleft",
+                    "type": "string",
+                    "format": "image",
+                    "label": "saleImgLeft",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
+        },
+        {
+            "key": "8fcd5874-dab9-4f74-b0af-5ac69371e1bd",
+            "title": "Section8",
+            "icon": "sicon-store",
+            "path": "home.Section8",
+            "fields": [
+                {
+                    "id": "image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
+        },
+        {
+            "key": "28e0db38-8b0b-4c18-9201-8bc871d019d7",
+            "title": "cattest",
+            "icon": "sicon-store",
+            "path": "home.cattest",
+            "fields": [
+                {
+                    "id": "cat",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "cat",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "cat.catlist",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "catlist",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Categories",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false,
+                            "value": []
+                        },
+                        {
+                            "id": "cat.cattitle",
+                            "type": "string",
+                            "format": "text",
+                            "label": "cattitle",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                },
+                {
+                    "id": "list",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "list",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "Categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "value": []
+                }
+            ]
+        },
+        {
+            "key": "f667fb3e-396d-4d0f-ba64-340e28c13506",
+            "title": "spacer",
+            "icon": "sicon-store",
+            "path": "home.spacer",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",

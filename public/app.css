@@ -518,7 +518,6 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .mx-1\.5{margin-left:0.375rem;margin-right:0.375rem}
 .mx-2{margin-left:0.5rem;margin-right:0.5rem}
 .mx-3{margin-left:0.75rem;margin-right:0.75rem}
-.my-3{margin-top:0.75rem;margin-bottom:0.75rem}
 .-mb-52{margin-bottom:-13rem}
 .-mt-1{margin-top:-0.25rem}
 .-mt-62{margin-top:-248px}
@@ -609,13 +608,6 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .h-lg-banner{height:428px}
 .h-px{height:1px}
 .h-screen{height:100vh}
-.h-\[10rem\]{height:10rem}
-.h-\[14rem\]{height:14rem}
-.h-\[1rem\]{height:1rem}
-.h-\[4rem\]{height:4rem}
-.h-fit{height:-moz-fit-content;height:fit-content}
-.h-\[10\%\]{height:10%}
-.h-\[2rem\]{height:2rem}
 .max-h-0{max-height:0px}
 .max-h-8{max-height:2rem}
 .max-h-\[300px\]{max-height:300px}
@@ -647,11 +639,6 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .w-fit{width:-moz-fit-content;width:fit-content}
 .w-full{width:100%}
 .w-screen{width:100vw}
-.w-\[10rem\]{width:10rem}
-.w-\[1rem\]{width:1rem}
-.w-\[7rem\]{width:7rem}
-.w-\[4rem\]{width:4rem}
-.w-\[2rem\]{width:2rem}
 .min-w-0{min-width:0px}
 .min-w-\[84px\]{min-width:84px}
 .min-w-full{min-width:100%}
