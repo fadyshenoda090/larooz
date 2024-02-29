@@ -1330,7 +1330,33 @@
             "title": "catSlider",
             "icon": "sicon-store",
             "path": "home.catSlider",
-            "fields": []
+            "fields": [
+                {
+                    "id": "slidertitle",
+                    "type": "static",
+                    "format": "title",
+                    "label": "sliderTitle",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "slidercategory",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "sliderCategory",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "Categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "value": []
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
