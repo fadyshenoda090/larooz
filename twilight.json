@@ -1395,6 +1395,13 @@
                     "maxLength": "30"
                 }
             ]
+        },
+        {
+            "key": "70a66075-4155-4803-9793-e640e62be2c9",
+            "title": "mainCategorySlider",
+            "icon": "sicon-store",
+            "path": "home.maincat",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
