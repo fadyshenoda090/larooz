@@ -1461,6 +1461,13 @@
                     "value": []
                 }
             ]
+        },
+        {
+            "key": "a64b8357-c7c2-411e-8910-59e525d54c08",
+            "title": "Section9",
+            "icon": "sicon-store",
+            "path": "home.Section9",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
