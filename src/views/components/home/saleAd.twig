@@ -1,14 +1,29 @@
 <h1>sale ad slider</h1>
 
 
-<div class="tg-tickerbox" style="background: #2236a5;   width: 100%; float: left; padding: 0px 0; position: relative;border-bottom: 1px solid #ddd;">
+<div class="tg-tickerbox test" style=" width: 100%; float: left; padding: 0px 0; position: relative; border-bottom: 1px solid #ddd;">
+    <div class="col-md-10" style="padding:10px;">
+        <marquee scrolldelay="100" loop="-1" style="padding-top: 5px;">
+            {% for offer in component.addoffer %}
+                <a href="https://salla.design/dev-adn671ta9breebis/offers" style="color: #fff; padding-top: 5px; margin-right: 20px; text-decoration:none;">{{offer.offer}}</a>
+            {% endfor %}
+        </marquee>
+    </div>
+</div>
 
-						<div class="col-md-10" style="padding:10px;">
-								<marquee scrolldelay="200" style=" padding-top: 5px;">
-                                 {% for offer in component.addoffer %}
-							  										<a href="https://salla.design/dev-adn671ta9breebis/offers" style="  color: #fff;padding-top: 5px;margin-right: 20px;text-decoration:none;">{{offer.offer}}</a>
-                                                                       {% endfor %}
 
-							  								</marquee>
-						</div>
-					</div>
+
+
+
+
+
+
+
+  <style>
+ .test{
+	background-color: rgb(75, 75, 202);
+ } 
+
+
+ 
+ </style>
