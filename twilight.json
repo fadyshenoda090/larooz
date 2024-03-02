@@ -1363,7 +1363,38 @@
             "title": "saleAd",
             "icon": "sicon-store",
             "path": "home.saleAd",
-            "fields": []
+            "fields": [
+                {
+                    "id": "addoffer",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "addOffer",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "addoffer.offer",
+                            "type": "string",
+                            "format": "text",
+                            "label": "offer",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": "3",
+                            "maxLength": "100"
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
