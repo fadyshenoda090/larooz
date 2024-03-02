@@ -23,13 +23,16 @@
         {% endfor %}
     </div> 
 {% else %}
-    <div>
-        <h3>{{ trans('blocks.footer.social') }}</h3>
-        {% for contact in contacts %}
-            <a href="{{ contact.url }}" class="mb-4 last:mb-0 flex items-center text-sm leading-none">
-                <i class="rtl:ml-2.5 ltr:mr-2.5 border rounded-full w-8 h-8 justify-center flex items-center shrink-0 {{ contact.icon }}"></i>
-                <span class="text-unicode unicode">{{ contact.value }}</span>
-            </a>
-        {% endfor %}
-    </div>
+     <div class="text-black">
+           <h3 class="text-white text-center">{{ trans('blocks.footer.social') }}</h3>
+        <div class="flex justify-around items-center gap-3">
+            {% for contact in contacts %}
+                <a href="{{ contact.url }}" class="cursor-pointer last:mb-0 flex items-center justify-center text-sm leading-none w-[4rem] h-fit bg-white shadow-md hover:bg-slate-200 shadow-white rounded-md">
+                    <i class="mt-1 w-5 h-7 justify-center flex items-center shrink-0 {{ contact.icon }}"></i>
+                    <span id="con" class="text-unicode unicode">{{ contact.name }}</span>
+                </a>
+            {% endfor %}
+        </div>
+     </div>
 {% endif %}
+

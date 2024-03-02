@@ -7,22 +7,37 @@
 | items[].url     | String  |                  |
 | items[].target  | String  | '_blank','_self' |
 #}
+<style>
+    li{
+    text-transform: capitalize;
+    letter-spacing: 0.059rem;
+    transition: transform 0.5s ease-in-out;
+    font-weight: bold;
+}
+.li:hover{
+    transform: scale(1.4);
+    transition: transform 0.5s ease-in-out;
+    border: none;
+    cursor: pointer !important;
+    color: #999;
+}
+</style>
 {% if is_header %}
     {% if items|length %}
         <ul class="hidden lg:flex items-center rtl:pl-4 ltr:pr-4 whitespace-nowrap">
             {% for key, item in items|slice(0,3) %}
-			  <li class="topnav-link-item right-side">
+			  <li class="topnav-link-item right-side" style="cursor: pointer !important;">
 				<a href="{{ item.url }}">{{ item.title }}</a>
 			  </li>
             {% endfor %}
         </ul>
     {% endif %}
 {% else %}
-    <div>
-        <h3>{{ trans('blocks.footer.pages_links') }}</h3>
-        <div class="footer-list {{ items|length > 4 ? 'store-links-items':'' }}">
+    <div class="text-center">
+        <h3 class="my-3">{{ trans('blocks.footer.pages_links') }}</h3>
+        <div class="footer-list flex flex-col w-fit {{ items|length > 4 ? 'store-links-items':'' }}">
             {% for item in items %}
-                <a href="{{ item.url }}" target="{{ item.target }}" class="block mb-5 last:mb-0 text-sm leading-none">{{ item.title }}</a>
+            <a href="{{ item.url }}" target="{{ item.target }}" class="li text-center block mb-5 last:mb-0 text-sm leading-none">{{ item.title }}</a>
             {% endfor %}
         </div>
     </div>
