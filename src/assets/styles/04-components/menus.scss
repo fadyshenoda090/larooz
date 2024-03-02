@@ -31,6 +31,10 @@
     }
 
     .has-children{
+
+      li a{
+        color:#000;
+      }
       li a:hover,
       .has-children:hover > a{
         color: var(--color-primary);

@@ -4319,6 +4319,9 @@ input[type=radio].sr-only:checked ~ div#nav-cart span {
     color: #414042;
     color: var(--color-primary);
   }
+  .main-menu .has-children li a {
+    color: #000;
+  }
   .main-menu .has-children li a:hover,
   .main-menu .has-children .has-children:hover > a {
     color: #414042;
