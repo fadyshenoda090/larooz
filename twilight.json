@@ -1324,6 +1324,77 @@
             "icon": "sicon-store",
             "path": "home.spacer",
             "fields": []
+        },
+        {
+            "key": "e2e492aa-77b6-418a-ad08-108e9307ad19",
+            "title": "catSlider",
+            "icon": "sicon-store",
+            "path": "home.catSlider",
+            "fields": [
+                {
+                    "id": "slidertitle",
+                    "type": "static",
+                    "format": "title",
+                    "label": "sliderTitle",
+                    "value": null,
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                },
+                {
+                    "id": "slidercategory",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "sliderCategory",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "Categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "value": []
+                }
+            ]
+        },
+        {
+            "key": "080d3592-1895-4173-bf4e-3f0f6cbc8f79",
+            "title": "saleAd",
+            "icon": "sicon-store",
+            "path": "home.saleAd",
+            "fields": [
+                {
+                    "id": "addoffer",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "addOffer",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "addoffer.offer",
+                            "type": "string",
+                            "format": "text",
+                            "label": "The Offer",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": "3",
+                            "maxLength": "100"
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": "30"
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",

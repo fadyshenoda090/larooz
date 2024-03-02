@@ -14,7 +14,7 @@
 
     li{
       > a{
-        @apply flex justify-between items-center font-normal transition duration-300 p-3 text-[1.1rem] hover:no-underline text-white; 
+        @apply flex justify-between items-center font-normal transition duration-300 p-3 text-[0.9rem] hover:no-underline text-white; 
       }
 
       &.root-level{
@@ -26,14 +26,16 @@
       }
     }
 
-    > .has-children:hover > a{
-      color: var(--color-primary);
-    }
 
     .has-children{
+      //categories sub-menu color
+      li a {
+        @apply text-black;
+      }
       li a:hover,
       .has-children:hover > a{
-        color: var(--color-primary);
+        // color: var(--color-primary);
+        color: black;
         @apply bg-gray-200/20;
       }
 
