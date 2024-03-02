@@ -1357,6 +1357,13 @@
                     "value": []
                 }
             ]
+        },
+        {
+            "key": "080d3592-1895-4173-bf4e-3f0f6cbc8f79",
+            "title": "saleAd",
+            "icon": "sicon-store",
+            "path": "home.saleAd",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
