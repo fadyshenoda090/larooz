@@ -1,33 +1,35 @@
-<section class="s-block s-block--categories">
-  <salla-slider type="carousel" auto-play loop="true" show-controls="false">
-  <div slot="items">
-
-  {% for slide in component.salesslider %}
-  <a href="https://salla.design/dev-adn671ta9breebis/offers">
-    <img class="rounded m-1 w-full" src="{{slide.sliderimg}}" />
+<div class="container">
+  <section class="s-block s-block--categories">
+    <salla-slider type="carousel" auto-play loop="true" show-controls="false">
+    <div slot="items">
+  
+    {% for slide in component.salesslider %}
+    <a href="https://salla.design/dev-adn671ta9breebis/offers">
+      <img class="rounded m-1 w-full" src="{{slide.sliderimg}}" />
+    </a>
+  
+      {% endfor %}
+  
+    </div>
+  
+    </salla-slider>
+  
+  
+  
+  
+  
+  <br/>
+  <div class="grid grid-cols-2  gap-4">
+    <a href="https://salla.design/dev-adn671ta9breebis/offers">
+  <img class="rounded m-1" src="{{component.saleimgright}}" />
   </a>
-
-    {% endfor %}
-
+  
+    <a href="https://salla.design/dev-adn671ta9breebis/offers">
+  <img class="rounded m-1 " src="{{component.saleimgleft}}" />
+  </a>
   </div>
-
-  </salla-slider>
-
-
-
-
-
-<br/>
-<div class="grid grid-cols-2  gap-4">
-  <a href="https://salla.design/dev-adn671ta9breebis/offers">
-<img class="rounded m-1" src="{{component.saleimgright}}" />
-</a>
-
-  <a href="https://salla.design/dev-adn671ta9breebis/offers">
-<img class="rounded m-1 " src="{{component.saleimgleft}}" />
-</a>
+  
+  </div>
+  
+  </section>
 </div>
-
-</div>
-
-</section>
