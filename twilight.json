@@ -1395,6 +1395,79 @@
                     "maxLength": "30"
                 }
             ]
+        },
+        {
+            "key": "2e7838e5-86d2-463c-a457-ca13d42e2195",
+            "title": "mainCategorySlider",
+            "icon": "sicon-store",
+            "path": "home.maincatslider",
+            "fields": [
+                {
+                    "id": "bgImg",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Back ground image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                },
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Title",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "subtitle",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Sub title",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Placeholder text ..",
+                    "icon": "sicon-format-text-alt",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "category",
+                    "type": "items",
+                    "format": "dropdown-list",
+                    "label": "category",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-keyboard_arrow_down",
+                    "selected": [],
+                    "options": [],
+                    "source": "Categories",
+                    "multichoice": true,
+                    "searchable": true,
+                    "required": false,
+                    "value": []
+                }
+            ]
+        },
+        {
+            "key": "a64b8357-c7c2-411e-8910-59e525d54c08",
+            "title": "Section9",
+            "icon": "sicon-store",
+            "path": "home.Section9",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
