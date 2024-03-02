@@ -1,26 +1,27 @@
 {# | Variable | Type | Description |
 |------------------|---------|---------------------------------| | cart | object
 | | | cart.items_count | int | | | cart.total | string | Formatted total ex:
-"١٠٠ ر.س" | #}
-<header class="flex flex-col z-50 h-[12rem]" id="main-header">
+"١٠٠ ر.س" | #} {#
+<div
+  class="z-30 h-[13rem] w-screen bg-gray-500 opacity-90 blur-lg absolute"
+  id="backBlur"
+></div>
+#}
+<div
+  id="backBlur"
+  class="h-[13rem] w-[100vw] top-0 absolute z-30 bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-100 rounde-lg"
+></div>
+<header class="flex flex-col z-50 h-[13rem]" id="main-header">
   <section
     id="headerTop"
     class="flex justify-between items-center border-b border-white h-[2.6rem] w-[100vw]"
   >
-    {#
-    <a
-      href="https://salla.sa/dev-adn671ta9breebis/policies/page-1929369537"
-      fill="solid"
-      color="light"
-      >ll</a
-    >
-    #}
     <div class="mr-[7%] flex">
       <div class="header-buttons mr-5">
         {% if store.settings.is_multilingual or store.currencies_enabled %}
         <button
           type="button"
-          onclick="salla.event.dispatch(localization::open)"
+          onclick="salla.event.dispatch(`localization::open`)"
           class="rounded-xl px-3 basis-0 flex items-center font-[600]"
         >
           <span class="flex items-center text-white">
@@ -33,7 +34,7 @@
         {% endif %}
       </div>
     </div>
-    <div class="ml-[7%] flex text-white"  style="color: black !important;">
+    <div class="ml-[7%] flex text-white">
       {% component 'footer.contacts' with {is_header:true} %}
     </div>
   </section>
@@ -90,3 +91,24 @@
     </div>
   </section>
 </header>
+<script>
+  // // const header = document.getElementById("main-header");
+  // const backBlur = document.getElementById("backBlur");
+  // // const headerTop = document.getElementById("headerTop");
+  // const scrollThreshold = 300;
+  // window.addEventListener("scroll", function () {
+  //   const scrollY = window.scrollY || window.pageYOffset;
+  //   if (scrollY > scrollThreshold) {
+  //     backBlur.classList.add("top-0", "transition-all", "duration-300");
+  //   } else {
+  //     backBlur.classList.add("top-[-12rem]", "transition-all", "duration-300");
+  //   }
+  //   // Trigger reflow to ensure transitions are applied smoothly
+  //   void header.offsetWidth;
+  //   void backBlur.offsetWidth;
+  //   if (scrollY > scrollThreshold) {
+  //     header.classList.remove("translate-y-[-100%]");
+  //     backBlur.classList.remove("translate-y-[-100%]");
+  //   }
+  // });
+</script>

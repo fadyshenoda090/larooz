@@ -8,7 +8,7 @@
 | component.slides               | object[] | list of slides                                                               |
 | position                       | int      | Sorting number start from zero                                               |
 #}
-<section class="s-block s-block--hero-slider s-block--full-bg wide-placeholder absolute inset-0"> 
+<section class="s-block s-block--hero-slider s-block--full-bg wide-placeholder absolute z-40 inset-0"> 
     <salla-slider 
       id="main-slider-{{ position }}"
       auto-play
@@ -24,7 +24,7 @@
       type="fullwidth">
         <div slot="items">
             {% for slide in component.slides %}
-                <div class="swiper-slide w-full min-h-[100vh] bg-dark relative">
+                <div class="swiper-slide w-[100vw] min-h-[100vh] bg-dark relative">
 					<div data-swiper-autoplay="500" style="background-image: url({{ slide.image }});" class="h-screen bg-cover bg-center absolute inset-0"></div>
                     
                     <div class="flex-center container pb-16 sm:pb-0 home-slider__content relative h-full">
