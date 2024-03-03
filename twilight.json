@@ -1498,6 +1498,21 @@
                             "required": false
                         },
                         {
+                            "id": "all_categorires.cat_url",
+                            "type": "string",
+                            "format": "text",
+                            "label": "cat url",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": "200"
+                        },
+                        {
                             "id": "all_categorires.category",
                             "type": "items",
                             "format": "dropdown-list",
