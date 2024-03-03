@@ -1,8 +1,9 @@
 
 
-<div class="my-10">
-    <img src="{{component.title_image}}" alt="">
-<div class="container p-5 m-4 grid xs:grid-col-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 justify-center">
+<div class="mt-16 ">
+    <img src="{{component.title_image}}" alt="" class="">
+    <div class="flex justify-center ">
+<div class="container p-5 m-4 grid xs:grid-col-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  justify-center">
 {% for cat in component.all_categorires %}
 <a href="{{cat.cat_url}}" class="">
     <img class="img" src="{{cat.cat_img}}"/>
@@ -10,7 +11,7 @@
 {% endfor %}
 </div>
 </div>
-
+</div>
 <style>
     .all{
         display:flex;
