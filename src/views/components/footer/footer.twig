@@ -1,13 +1,13 @@
 <div id="scrollToTop" style="z-index: 99999999999;" onclick="scrollToTop()"
- class="bg-white cursor-pointer w-[3rem] h-[3rem] rounded-full fixed bottom-[5rem] 
- rtl:left-5 ltr:left-5 hidden justify-center 
- items-center border-black border-2">
-  <i class="icon sicon-arrow-up text-black text-xl"></i>
+ class="bg-white cursor-pointer w-[3rem] h-[3rem] hover:scale-125 rounded-full fixed bottom-[5rem] 
+ rtl:left-5 ltr:left-5 hidden justify-center hover:bg-black transition-all duration-500 ease-in-out
+ items-center border-black hover:border-white border-2">
+  <i class="icon sicon-arrow-up text-[#c37d48] text-xl"></i>
 </div>
 <footer class="bg-black text-white h-[10%]">
   <div aria-label="footer" style="border-bottom:1px dotted white" class="pb-[1rem] space-y-4">
-    <div class="w-full grid grid-col-1 lg:grid-cols-12 gap-8 lg:gap-6">
-      <div class="rtl:lg:pl-20 ltr:lg:pr-20 col-span-5 place-content-center flex -flex-col items-center justify-center">
+    <div class="w-full lg:grid lg:grid-col-1 lg:grid-cols-12 gap-8 lg:gap-6 flex flex-col justify-center items-center">
+      <div class="rtl:lg:pl-20 ltr:lg:pr-20 col-span-5 flex -flex-col items-center justify-center">
         <a href="{{ link('/') }}" class="flex items-center m-0">
           <img
             class="h-[10rem] w-[10rem]"
@@ -84,7 +84,9 @@
   <div class="flex justify-evenly items-center h-[4rem]">
     {# copy rights #}
     <div class="text-sm flex justify-center items-center" style="color: white !important;">
-      {% hook copyright %}
+      <p>
+        Copy Rights &copy; 2024 <a href="www.alrowadit.com">AlRowad (AITSP)</a>
+      </p>
     </div>
     {# payment methods #}
     <div class="flex justify-center items-center">

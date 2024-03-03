@@ -8,6 +8,10 @@
     },
     "langAndCurrency":{
       "langCurr" : "Language and Currency"
+    },
+    "footer" : {
+      "importantLinks" : "Important Links",
+      "contact" : "Contact Us"
     }
   },
   "pages": {

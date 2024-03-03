@@ -8,6 +8,10 @@
     },
     "langAndCurrency":{
       "langCurr" : "اللغة والعملة"
+    },
+    "footer" : {
+      "importantLinks" : "روابط مهمة",
+      "contact" : "تواصل معنا"
     }
   },
   "pages": {

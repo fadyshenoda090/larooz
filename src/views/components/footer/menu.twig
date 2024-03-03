@@ -34,7 +34,7 @@
     {% endif %}
 {% else %}
     <div class="text-center">
-        <h3 class="my-3">{{ trans('blocks.footer.pages_links') }}</h3>
+        <h3 class="my-3">{{trans('blocks.footer.importantLinks')}}</h3>
         <div class="footer-list flex flex-col w-fit {{ items|length > 4 ? 'store-links-items':'' }}">
             {% for item in items %}
             <a href="{{ item.url }}" target="{{ item.target }}" class="li text-center block mb-5 last:mb-0 text-sm leading-none">{{ item.title }}</a>
