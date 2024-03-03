@@ -1,4 +1,7 @@
-<h1 class="x">All Categorie</h1>
+
+
+<div class="my-10">
+    <img src="{{component.title_image}}" alt="">
 <div class="container p-5 m-4 grid xs:grid-col-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 justify-center">
 {% for cat in component.all_categorires %}
 <a href="{{cat.cat_url}}" class="">
@@ -6,7 +9,7 @@
 </a>
 {% endfor %}
 </div>
-
+</div>
 
 <style>
     .all{
