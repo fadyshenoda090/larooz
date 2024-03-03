@@ -5,6 +5,9 @@
     },
     "appBanner": {
       "download_now": "download now"
+    },
+    "langAndCurrency":{
+      "langCurr" : "Language and Currency"
     }
   },
   "pages": {
