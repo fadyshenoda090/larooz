@@ -1468,6 +1468,72 @@
             "icon": "sicon-store",
             "path": "home.Section9",
             "fields": []
+        },
+        {
+            "key": "d884d4ac-9dfd-4a7e-a862-6f0c0daacf22",
+            "title": "All-categorires",
+            "icon": "sicon-store",
+            "path": "home.all-caegories",
+            "fields": [
+                {
+                    "id": "all_categorires",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "All Categorires",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "all_categorires.cat_img",
+                            "type": "string",
+                            "format": "image",
+                            "label": "cat_img",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "e.g. https://hostname.com/image.png",
+                            "icon": "sicon-image",
+                            "value": null,
+                            "required": false
+                        },
+                        {
+                            "id": "all_categorires.cat_url",
+                            "type": "string",
+                            "format": "text",
+                            "label": "cat url",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 6,
+                            "maxLength": "200"
+                        },
+                        {
+                            "id": "all_categorires.category",
+                            "type": "items",
+                            "format": "dropdown-list",
+                            "label": "category",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-keyboard_arrow_down",
+                            "selected": [],
+                            "options": [],
+                            "source": "Categories",
+                            "multichoice": true,
+                            "searchable": true,
+                            "required": false,
+                            "value": []
+                        }
+                    ],
+                    "value": [],
+                    "minLength": 1,
+                    "maxLength": "20"
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",

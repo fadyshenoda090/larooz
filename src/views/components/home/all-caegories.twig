@@ -1,0 +1,12 @@
+<h1 class="x">All Categorie</h1>
+{% for cat in component.all_categorires %}
+<img src="{{cat.cat_img}}"/>
+<h1>{{cat[0]}}</h1>
+
+{% endfor %}
+
+<style>
+    .x{
+        color:red
+    }
+</style>
