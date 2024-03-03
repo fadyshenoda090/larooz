@@ -1,3 +1,9 @@
+<div id="scrollToTop" style="z-index: 99999999999;" onclick="scrollToTop()"
+ class="bg-white cursor-pointer w-[3rem] h-[3rem] rounded-full fixed bottom-[5rem] 
+ rtl:left-5 ltr:left-5 hidden justify-center 
+ items-center border-black border-2">
+  <i class="icon sicon-arrow-up text-black text-xl"></i>
+</div>
 <footer class="bg-black text-white h-[10%]">
   <div aria-label="footer" style="border-bottom:1px dotted white" class="pb-[1rem] space-y-4">
     <div class="w-full grid grid-col-1 lg:grid-cols-12 gap-8 lg:gap-6">
@@ -92,3 +98,38 @@
 
   <span class="hidden bottom-2 rtl:pl-24 ltr:pr-24 md:grid-cols-3"></span>
 </footer>
+
+ <script>
+    // Get the button element
+    var scrollToTopButton = document.getElementById('scrollToTop');
+    function myFunction2() {
+      let sus= document.getElementById('sus');
+      console.log('lkak', sus);
+    }
+
+    // Add a scroll event listener
+    window.addEventListener('scroll', function() {
+      // Calculate the scroll percentage
+      // var scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+      // console.log('scrollPercentage', scrollPercentage);
+      // console.log('window.scrollY', window.scrollY);
+      // console.log('document.documentElement.scrollHeight', document.documentElement.scrollHeight);
+      // console.log('windows.innerHeight', window.innerHeight);
+
+      // Toggle the visibility based on the scroll position
+      if (window.scrollY >=750) {
+        scrollToTopButton.style.display = 'flex';
+      } else {
+        scrollToTopButton.style.display = 'none';
+      }
+    });
+
+    // Function to scroll to the top when the button is clicked
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        duration: 5000,
+        behavior: 'smooth'
+      });
+    }
+  </script>
