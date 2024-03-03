@@ -1468,6 +1468,13 @@
             "icon": "sicon-store",
             "path": "home.Section9",
             "fields": []
+        },
+        {
+            "key": "d884d4ac-9dfd-4a7e-a862-6f0c0daacf22",
+            "title": "All-categorires",
+            "icon": "sicon-store",
+            "path": "home.all-caegories",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
