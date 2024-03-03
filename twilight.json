@@ -1476,6 +1476,18 @@
             "path": "home.all-caegories",
             "fields": [
                 {
+                    "id": "title_image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "title image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                },
+                {
                     "id": "all_categorires",
                     "type": "collection",
                     "format": "collection",
