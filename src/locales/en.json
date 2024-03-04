@@ -12,6 +12,9 @@
     "footer" : {
       "importantLinks" : "Important Links",
       "contact" : "Contact Us"
+    },
+    "hoome":{
+      "showAll": "Show All"
     }
   },
   "pages": {

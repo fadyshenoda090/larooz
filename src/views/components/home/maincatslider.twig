@@ -1,4 +1,4 @@
-<section class="s-block s-block--categories" style="height: 46rem !important">
+<section class="relative overflow-hidden h-[44rem] sm:h-[47rem] md:h-[50rem]" >
   <div class="slider-bg">
     <img src="{{ component.bgImg }}" class="w-[100vw] h-[67vh] relative" />
 
@@ -9,7 +9,7 @@
         href="{{ component.category[0].url }}"
         class="no-underline w-[6rem] h-10 border border-white bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:scale-110 transition-transform duration-300 ease-in-out rounde-lg flex justify-center items-center"
       >
-        عرض الكل
+      {{trans('blocks.hoome.showAll')}}
       </a>
     </div>
   </div>

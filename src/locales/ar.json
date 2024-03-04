@@ -12,6 +12,9 @@
     "footer" : {
       "importantLinks" : "روابط مهمة",
       "contact" : "تواصل معنا"
+    },
+    "hoome":{
+      "showAll": "عرض الكل"
     }
   },
   "pages": {
