@@ -1,22 +1,42 @@
-{# <div class="mx-auto" style="background-image: url('{{component.bgImg}}'); background-repeat: no-repeat; background-size: cover; height: 500px; width: 1980px;">  
-  <div style="color: white; padding: 3%;">
-      <h1 class="mb-3">{{component.title}}</h1>
-      <p class="mb-8">{{component.subtitle}}</p>
-      <a href="{{component.category[0].url}}">
-          <p style="border: 2px solid white; width: 10%; text-align: center; border-radius: 30px;">عرض الكل</p>
+<section class="s-block s-block--categories" style="height: 39rem !important">
+  <div class="slider-bg">
+    <img src="{{ component.bgImg }}" class="w-[100vw] h-[67vh] relative" />
+
+    <div
+      class="absolute top-10 rtl:left-10 ltr:right-10 text-white w-fit justify-center items-center"
+    >
+      <a
+        href="{{ component.category[0].url }}"
+        class="no-underline w-[6rem] h-10 border border-white bg-black rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 hover:scale-110 transition-transform duration-300 ease-in-out rounde-lg flex justify-center items-center"
+      >
+        عرض الكل
       </a>
+    </div>
   </div>
-</div> #}
-<div class=" flex justify-center items-center w-full">
-  <img class="relative w-full" src="{{component.bgImg}}" alt="">
-  <a href="{{component.category[0].url}}" class="absolute text-white  " style=" border: 2px solid white; width: 10%; text-align: center; border-radius: 30px;">
-  عرض الكل
-</a>
-</div>
 
-
-<div class="container px-16 relative overflow-hidden" style="margin-top: 1%; position: relative; top: -400px;">
-  <salla-products-slider source="categories" source-value="{{component.category[0].id}}" show-controls="false" style="color: white; height: 50%;" class="s-products-slider-wrapper hydrated" limit="20" autoplay display-all-url="" block-title="{{component.category[0].name}}" block-subtitle="" slider-id="slider-with-bg-5">
-      <salla-product-card minimal="true" full-image="false" special="false"></salla-product-card>
-  </salla-products-slider>
-</div>
+  <br />
+  <div
+    class="container px-16 relative overflow-hidden"
+    style="margin-top: 1%; top: -300px"
+  >
+    <salla-products-slider
+      source="categories"
+      source-value="{{ component.category[0].id }}"
+      show-controls="false"
+      style="color: white; height: 50%"
+      class="s-products-slider-wrapper hydrated"
+      limit="20"
+      autoplay
+      display-all-url=""
+      block-title="{{ component.category[0].name }}"
+      block-subtitle=""
+      slider-id="slider-with-bg-5"
+    >
+      <salla-product-card
+        minimal="true"
+        full-image="false"
+        special="false"
+      ></salla-product-card>
+    </salla-products-slider>
+  </div>
+</section>
