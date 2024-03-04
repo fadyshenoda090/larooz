@@ -1,7 +1,7 @@
 {
     "name": {
-        "ar": "larooz",
-        "en": "larooz"
+        "ar": "ذكري",
+        "en": "Zekraa"
     },
     "repository": "https://github.com/fadyshenoda090/larooz",
     "author_email": "fadyshenoda0o0@gmail.com",
@@ -1585,7 +1585,7 @@
     ],
     "support_url": "https://example.com",
     "description": {
-        "ar": "",
-        "en": ""
+        "ar": "ثيم ذكري  (تم التعديل من الثيم الرئيسي - رائد )\nتم التصميم",
+        "en": "Zekraa heme (modified from base theme - raed ) \nDesigned"
     }
 }
