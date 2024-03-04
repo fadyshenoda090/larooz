@@ -1546,6 +1546,13 @@
                     "maxLength": "20"
                 }
             ]
+        },
+        {
+            "key": "40e55a11-25f8-43ef-9526-260d5f820aa9",
+            "title": "imagee",
+            "icon": "sicon-store",
+            "path": "home.imagee",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
