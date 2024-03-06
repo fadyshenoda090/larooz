@@ -1581,6 +1581,13 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "1e87d316-917e-4c25-84e2-45fb50c7921b",
+            "title": "componentForTest",
+            "icon": "sicon-store",
+            "path": "home.componentForTest",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
