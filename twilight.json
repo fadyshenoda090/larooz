@@ -813,33 +813,6 @@
             "path": "home.section2",
             "fields": [
                 {
-                    "id": "head_image",
-                    "type": "string",
-                    "format": "image",
-                    "label": "head_Image",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false
-                },
-                {
-                    "id": "headimg_url",
-                    "type": "string",
-                    "format": "url",
-                    "inputType": "url",
-                    "label": "headImg_URL",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://salla.sa",
-                    "icon": "sicon-link",
-                    "value": null,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": "100"
-                },
-                {
                     "id": "right_image",
                     "type": "string",
                     "format": "image",
