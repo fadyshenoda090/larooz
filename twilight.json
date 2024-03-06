@@ -1298,36 +1298,6 @@
                     "required": false
                 },
                 {
-                    "id": "title",
-                    "type": "string",
-                    "format": "text",
-                    "label": "Title",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
-                    "id": "subtitle",
-                    "type": "string",
-                    "format": "text",
-                    "label": "Sub title",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Placeholder text ..",
-                    "icon": "sicon-format-text-alt",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
                     "id": "category",
                     "type": "items",
                     "format": "dropdown-list",
