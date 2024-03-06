@@ -1587,7 +1587,17 @@
             "title": "componentForTest",
             "icon": "sicon-store",
             "path": "home.componentForTest",
-            "fields": []
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "static",
+                    "format": "title",
+                    "label": "Title",
+                    "value": "test component",
+                    "variant": "h1",
+                    "icon": "sicon-format-text"
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
