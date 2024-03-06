@@ -1,9 +1,9 @@
 {
     "name": {
         "ar": "ذكري",
-        "en": "zekraa"
+        "en": "Zekraa"
     },
-    "repository": "https://github.com/fadyshenoda090/zekraa",
+    "repository": "https://github.com/fadyshenoda090/larooz",
     "author_email": "fadyshenoda0o0@gmail.com",
     "features": [
         "mega-menu",
@@ -807,9 +807,9 @@
             ]
         }
     ],
-    "support_url": "https://salla.com/",
+    "support_url": "https://example.com",
     "description": {
-        "ar": "مجموعة كبيرة من المزايا لدعم تجارتك وتقديم تجربة تسوق مثيرة لعملائك",
-        "en": "A wide range of features to support your business and provide an exciting shopping experience for your customers"
+        "ar": "ثيم ذكري  (تم التعديل من الثيم الرئيسي - رائد )\nتم التصميم",
+        "en": "Zekraa heme (modified from base theme - raed ) \nDesigned"
     }
 }
