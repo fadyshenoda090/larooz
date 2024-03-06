@@ -1496,22 +1496,6 @@
                             "required": false,
                             "minLength": 6,
                             "maxLength": "200"
-                        },
-                        {
-                            "id": "all_categorires.category",
-                            "type": "items",
-                            "format": "dropdown-list",
-                            "label": "category",
-                            "description": null,
-                            "labelHTML": null,
-                            "icon": "sicon-keyboard_arrow_down",
-                            "selected": [],
-                            "options": [],
-                            "source": "Categories",
-                            "multichoice": true,
-                            "searchable": true,
-                            "required": false,
-                            "value": []
                         }
                     ],
                     "value": [],
