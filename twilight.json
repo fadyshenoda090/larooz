@@ -1600,9 +1600,6 @@
             ]
         }
     ],
-    "support_url": "https://example.com",
-    "description": {
-        "ar": "ثيم ذكري  (تم التعديل من الثيم الرئيسي - رائد )\nتم التصميم",
-        "en": "Zekraa heme (modified from base theme - raed ) \nDesigned"
-    }
+    "support_url": "https://example.com"
+   
 }
