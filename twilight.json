@@ -1558,7 +1558,7 @@
                     "type": "string",
                     "format": "image",
                     "label": "Image",
-                    "description": null,
+                    "description": "helper text",
                     "labelHTML": null,
                     "placeholder": "e.g. https://hostname.com/image.png",
                     "icon": "sicon-image",
