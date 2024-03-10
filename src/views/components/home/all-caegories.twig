@@ -7,26 +7,10 @@
 <div class="container p-5 m-4 grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5  justify-center">
 {% for cat in component.all_categorires %}
 <a href="https://salla.design/ar/dev-adn671ta9breebis/redirect/categories/{{cat.cat_url}}" class="flex justify-center items-center">
-    <img class="img" src="{{cat.cat_img}}"/>
+    <img class="w-[150px] h-[150px] rounded-[50%] m-[10px]" src="{{cat.cat_img}}"/>
 </a>
 
 {% endfor %}
 </div>
 </div>
 </div>
-<style>
-    .all{
-        display:flex;
-        flex-direction: row;
-        
-    }
-    .img{
-        width:150px;
-        height: 150px;
-        border-radius: 50%;
-        margin: 10px;
-    }
-    .x{
-        color:red
-    }
-</style>
