@@ -813,18 +813,6 @@
             "path": "home.section2",
             "fields": [
                 {
-                    "id": "head_image",
-                    "type": "string",
-                    "format": "image",
-                    "label": "head_Image",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false
-                },
-                {
                     "id": "headimg_url",
                     "type": "string",
                     "format": "url",
