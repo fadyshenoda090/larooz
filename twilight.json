@@ -1270,44 +1270,6 @@
             ]
         },
         {
-            "key": "080d3592-1895-4173-bf4e-3f0f6cbc8f79",
-            "title": "saleAd",
-            "icon": "sicon-store",
-            "path": "home.saleAd",
-            "fields": [
-                {
-                    "id": "addoffer",
-                    "type": "collection",
-                    "format": "collection",
-                    "label": "addOffer",
-                    "description": null,
-                    "labelHTML": null,
-                    "item_label": null,
-                    "icon": "sicon-list-add",
-                    "fields": [
-                        {
-                            "id": "addoffer.offer",
-                            "type": "string",
-                            "format": "text",
-                            "label": "The Offer",
-                            "description": null,
-                            "labelHTML": null,
-                            "placeholder": "Placeholder text ..",
-                            "icon": "sicon-format-text-alt",
-                            "value": null,
-                            "multilanguage": false,
-                            "required": false,
-                            "minLength": "3",
-                            "maxLength": "100"
-                        }
-                    ],
-                    "value": [],
-                    "minLength": 1,
-                    "maxLength": "30"
-                }
-            ]
-        },
-        {
             "key": "2e7838e5-86d2-463c-a457-ca13d42e2195",
             "title": "mainCategorySlider",
             "icon": "sicon-store",
