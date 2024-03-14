@@ -1,13 +1,13 @@
 
 <div class="container px-16 ">
 
- <salla-products-slider source="categories" source-value="{{component.slidercategory[0].id}}" show-controls="false"  style=" color:white; height:50%"
+ <salla-products-slider source="categories"  show-controls="false"  style=" color:white; height:50%"
  class="s-products-slider-wrapper hydrated" limit="20" autoplay  display-all-url=""
  block-title="{{component.slidercategory[0].name}}" block-subtitle="" slider-id="slider-with-bg-5">
- <salla-product-card
+ <custom-salla-product-card
   minimal="true"
 full-image="false"
   special="false">
- </salla-product-card>
+ </custom-salla-product-card>
 </salla-products-slider>
 </div>
