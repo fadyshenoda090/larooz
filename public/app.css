@@ -526,6 +526,10 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .my-3{margin-top:0.75rem;margin-bottom:0.75rem}
 .my-5{margin-top:1.25rem;margin-bottom:1.25rem}
 .my-\[4\.5rem\]{margin-top:4.5rem;margin-bottom:4.5rem}
+.my-\[4\.5vh\]{margin-top:4.5vh;margin-bottom:4.5vh}
+.my-\[15vh\]{margin-top:15vh;margin-bottom:15vh}
+.my-\[13vh\]{margin-top:13vh;margin-bottom:13vh}
+.my-\[10vh\]{margin-top:10vh;margin-bottom:10vh}
 .-mb-52{margin-bottom:-13rem}
 .-mt-1{margin-top:-0.25rem}
 .-mt-62{margin-top:-248px}
@@ -596,9 +600,9 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .h-80{height:20rem}
 .h-\[0\.0001px\]{height:0.0001px}
 .h-\[10\%\]{height:10%}
+.h-\[10\.5rem\]{height:10.5rem}
 .h-\[100\%\]{height:100%}
 .h-\[10rem\]{height:10rem}
-.h-\[11rem\]{height:11rem}
 .h-\[150px\]{height:150px}
 .h-\[2\.5rem\]{height:2.5rem}
 .h-\[2\.6rem\]{height:2.6rem}
@@ -619,9 +623,6 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .h-full{height:100%}
 .h-lg-banner{height:428px}
 .h-px{height:1px}
-.h-\[8rem\]{height:8rem}
-.h-\[10\.3rem\]{height:10.3rem}
-.h-\[10\.5rem\]{height:10.5rem}
 .max-h-0{max-height:0px}
 .max-h-8{max-height:2rem}
 .max-h-\[300px\]{max-height:300px}
@@ -6569,6 +6570,11 @@ button.swiper-pagination-bullet {
 .sm\:row-span-2{grid-row:span 2 / span 2}
 .sm\:my-4{margin-top:1rem;margin-bottom:1rem}
 .sm\:my-\[17rem\]{margin-top:17rem;margin-bottom:17rem}
+.sm\:my-\[17vh\]{margin-top:17vh;margin-bottom:17vh}
+.sm\:my-\[25vh\]{margin-top:25vh;margin-bottom:25vh}
+.sm\:my-\[30vh\]{margin-top:30vh;margin-bottom:30vh}
+.sm\:my-\[35vh\]{margin-top:35vh;margin-bottom:35vh}
+.sm\:my-\[33vh\]{margin-top:33vh;margin-bottom:33vh}
 .sm\:mb-0{margin-bottom:0px}
 .sm\:mb-24{margin-bottom:6rem}
 .sm\:mb-5{margin-bottom:1.25rem}
@@ -6582,8 +6588,11 @@ button.swiper-pagination-bullet {
 .sm\:h-\[47rem\]{height:47rem}
 .sm\:h-auto{height:auto}
 .sm\:h-full{height:100%}
-.sm\:h-\[11\]{height:11}
 .sm\:min-h-\[100vh\]{min-height:100vh}
+.sm\:min-h-\[10vh\]{min-height:10vh}
+.sm\:min-h-\[7vh\]{min-height:7vh}
+.sm\:min-h-\[70vh\]{min-height:70vh}
+.sm\:min-h-\[100\%\]{min-height:100%}
 .sm\:\!w-\[220px\]{width:220px !important}
 .sm\:grow-0{flex-grow:0}
 .sm\:translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x), 0px) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
@@ -6609,6 +6618,11 @@ button.swiper-pagination-bullet {
 .md\:top-\[40\%\]{top:40%}
 .md\:mx-0{margin-left:0px;margin-right:0px}
 .md\:my-\[16\.5rem\]{margin-top:16.5rem;margin-bottom:16.5rem}
+.md\:my-\[16\.5vh\]{margin-top:16.5vh;margin-bottom:16.5vh}
+.md\:my-\[40vh\]{margin-top:40vh;margin-bottom:40vh}
+.md\:my-\[3vh\]{margin-top:3vh;margin-bottom:3vh}
+.md\:my-\[37vh\]{margin-top:37vh;margin-bottom:37vh}
+.md\:my-\[35vh\]{margin-top:35vh;margin-bottom:35vh}
 .md\:-mb-2{margin-bottom:-0.5rem}
 .md\:mb-0{margin-bottom:0px}
 .md\:mb-10{margin-bottom:2.5rem}
@@ -6623,12 +6637,11 @@ button.swiper-pagination-bullet {
 .md\:hidden{display:none}
 .md\:h-20{height:5rem}
 .md\:h-24{height:6rem}
+.md\:h-\[10rem\]{height:10rem}
 .md\:h-\[30\%\]{height:30%}
 .md\:h-\[400px\]{height:400px}
 .md\:h-\[50rem\]{height:50rem}
 .md\:h-\[9rem\]{height:9rem}
-.md\:h-\[12rem\]{height:12rem}
-.md\:h-\[10rem\]{height:10rem}
 .md\:\!w-2\/4{width:50% !important}
 .md\:w-2\/4{width:50%}
 .md\:w-24{width:6rem}
@@ -6673,6 +6686,10 @@ button.swiper-pagination-bullet {
 .lg\:m-0{margin:0px}
 .lg\:my-10{margin-top:2.5rem;margin-bottom:2.5rem}
 .lg\:my-\[15\.1rem\]{margin-top:15.1rem;margin-bottom:15.1rem}
+.lg\:my-\[15vh\]{margin-top:15vh;margin-bottom:15vh}
+.lg\:my-\[40vh\]{margin-top:40vh;margin-bottom:40vh}
+.lg\:my-\[35vh\]{margin-top:35vh;margin-bottom:35vh}
+.lg\:my-\[33vh\]{margin-top:33vh;margin-bottom:33vh}
 .lg\:-mt-28{margin-top:-7rem}
 .lg\:mb-24{margin-bottom:6rem}
 .lg\:mb-8{margin-bottom:2rem}
@@ -6715,6 +6732,9 @@ button.swiper-pagination-bullet {
 .lg\:text-title-size{font-size:42px}
 .lg\:shadow-default{--tw-shadow:5px 10px 30px #2B2D340D;;--tw-shadow-colored:5px 10px 30px var(--tw-shadow-color);box-shadow:0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), 5px 10px 30px #2B2D340D;;box-shadow:var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow)}}
 @media (min-width: 1280px){
+.xl\:my-\[40vh\]{margin-top:40vh;margin-bottom:40vh}
+.xl\:my-\[37vh\]{margin-top:37vh;margin-bottom:37vh}
+.xl\:my-\[36vh\]{margin-top:36vh;margin-bottom:36vh}
 .xl\:gap-8{gap:2rem}
 .xl\:px-0{padding-left:0px;padding-right:0px}}
 @media (min-width: 480px){
