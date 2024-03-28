@@ -985,21 +985,6 @@
                     "maxLength": "100"
                 },
                 {
-                    "id": "url",
-                    "type": "string",
-                    "format": "url",
-                    "inputType": "url",
-                    "label": "URL",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://salla.sa",
-                    "icon": "sicon-link",
-                    "value": null,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": "1000"
-                },
-                {
                     "id": "image",
                     "type": "string",
                     "format": "image",
