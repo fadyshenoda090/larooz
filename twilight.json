@@ -1070,25 +1070,10 @@
             "path": "home.video",
             "fields": [
                 {
-                    "id": "url",
-                    "type": "string",
-                    "format": "url",
-                    "inputType": "url",
-                    "label": "URL",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://salla.sa",
-                    "icon": "sicon-link",
-                    "value": null,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": 30
-                },
-                {
                     "id": "string",
                     "type": "string",
                     "format": "text",
-                    "label": "String",
+                    "label": "Video URL",
                     "description": null,
                     "labelHTML": null,
                     "placeholder": "Placeholder text ..",
